@@ -1,0 +1,78 @@
+CRITICAL - 2022-11-22 20:36:20 --> Invalid file: libros/listars.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('libros/listars.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('libros/listars', [], true)
+ 3 APPPATH\Controllers\Libros.php(10): view('libros/listars')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 20:51:38 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+in APPPATH\Views\libros\listar.php on line 34.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('libros/listar', [], true)
+ 3 APPPATH\Controllers\Libros.php(15): view('libros/listar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 21:37:51 --> syntax error, unexpected '=', expecting ']'
+in APPPATH\Controllers\Libros.php on line 39.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Libros.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Libros')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Libros')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Libros')
+ 5 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Libros', true)
+ 6 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 21:37:53 --> syntax error, unexpected '=', expecting ']'
+in APPPATH\Controllers\Libros.php on line 39.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Libros.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Libros')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Libros')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Libros')
+ 5 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Libros', true)
+ 6 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 21:43:02 --> Allowed fields must be specified for model: App\Models\Libro
+in SYSTEMPATH\BaseModel.php on line 1160.
+ 1 SYSTEMPATH\BaseModel.php(1160): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Libro')
+ 2 SYSTEMPATH\BaseModel.php(724): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Libros.php(42): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 21:46:24 --> Allowed fields must be specified for model: App\Models\Libro
+in SYSTEMPATH\BaseModel.php on line 1160.
+ 1 SYSTEMPATH\BaseModel.php(1160): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Libro')
+ 2 SYSTEMPATH\BaseModel.php(724): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Libros.php(42): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 21:50:03 --> Allowed fields must be specified for model: App\Models\Libro
+in SYSTEMPATH\BaseModel.php on line 1160.
+ 1 SYSTEMPATH\BaseModel.php(1160): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Libro')
+ 2 SYSTEMPATH\BaseModel.php(724): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Libros.php(42): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 22:55:28 --> Function name must be a string
+in APPPATH\Views\libros\crear.php on line 7.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('libros/crear', [], true)
+ 4 APPPATH\Controllers\Libros.php(21): view('libros/crear', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Libros->crear()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
