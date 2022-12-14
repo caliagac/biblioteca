@@ -12,7 +12,9 @@
         </tr>
     </thead>
     <tbody>
+        <?php $count = 0; ?>
         <?php foreach($libros as $libro): ?>
+        <?php $count++; ?>
         <tr>
             <td><?=$libro['id']?></td>
             <td>
@@ -26,5 +28,10 @@
         </tr>
         <?php endforeach; ?>
     </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="4">Se encontraron <b><?=$count?></b> libros.</td>
+        </tr>
+    </tfoot>
 </table>
 <?=$pie?>
